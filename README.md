@@ -143,14 +143,14 @@ Synth Pad | 0.7500 | 6.0625 | 0.7254 | None
 모델 성능 지표
 악기 | Empty bar | Pitch used | Qualified | Tone distance
 --- | --- | --- | --- |--- 
-Drums | 0.0000 | 7.1406 | None | None
-Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
-Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
-Bass | 0.0234 | 4.4560 | 0.5812 | None
-Ensemble | 0.0000 | 5.8438 | 0.5090 | None
-Reed | 0.6953 | 3.6923 | 0.5962 | None
-Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
-Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+Drums | 0.0625 | 7.7833 | None | None
+Piano | 0.5938 | 11.5769 | 0.6634 | 0.74388
+Guitar | 0.0156 | 8.6508 | 0.4675 | 0.74388
+Bass | 0.0781 | 3.6949 | 0.6204 | None
+Ensemble | 0.6094 | 11.0000 | 0.5925 | None
+Reed | 0.8750 | 9.6250 | 0.7401 | None
+Synth Lead | 0.4688 | 3.6765 | 0.5178 | None
+Synth Pad | 0.8594 | 13.3333 | 0.6763 | None
 
 # (3) Rmsprop
 기존의 Adamm Optimizer에서 Rmsprop로 바꾸어 학습
