@@ -2,8 +2,8 @@
 
 # Data Augmentation
 
-Sample results are available
-[here](https://salu133445.github.io/musegan/results).
+# (1) 노트를 다른 악기에 반복
+랜덤하게 악기에서 나오는 마디를 다른 악기에도 연주를 하게끔 데이터를 증강함
 
 > Looking for a PyTorch version? Check out [this repository](https://github.com/salu133445/ismir2019tutorial).
 
