@@ -76,6 +76,37 @@ Reed | 0.6953 | 3.6923 | 0.5962 | None
 Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
 Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
 
+# (1-1) lr=0.0001, 노트반복
+학습률을 기존의 20분의 1 수준으로 학습
+
+모델 성능 지표
+악기 | Empty bar | Pitch used | Qualified | Tone distance
+--- | --- | --- | --- |--- 
+Drums | 0.0000 | 7.1406 | None | None
+Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
+Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
+Bass | 0.0234 | 4.4560 | 0.5812 | None
+Ensemble | 0.0000 | 5.8438 | 0.5090 | None
+Reed | 0.6953 | 3.6923 | 0.5962 | None
+Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
+Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+
+
+# (1-2) lr=0.0001, 노트 늘리기
+학습률을 기존의 20분의 1 수준으로 학습
+
+모델 성능 지표
+악기 | Empty bar | Pitch used | Qualified | Tone distance
+--- | --- | --- | --- |--- 
+Drums | 0.0000 | 7.1406 | None | None
+Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
+Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
+Bass | 0.0234 | 4.4560 | 0.5812 | None
+Ensemble | 0.0000 | 5.8438 | 0.5090 | None
+Reed | 0.6953 | 3.6923 | 0.5962 | None
+Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
+Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+
 # (2) lr=0.001
 학습률을 기존의 2분의 1 수준으로 학습
 
@@ -91,7 +122,82 @@ Reed | 0.6953 | 3.6923 | 0.5962 | None
 Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
 Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
 
+# (2-1) lr=0.001, 노트 반복
+학습률을 기존의 2분의 1 수준으로 학습
+
+모델 성능 지표
+악기 | Empty bar | Pitch used | Qualified | Tone distance
+--- | --- | --- | --- |--- 
+Drums | 0.0000 | 7.1406 | None | None
+Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
+Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
+Bass | 0.0234 | 4.4560 | 0.5812 | None
+Ensemble | 0.0000 | 5.8438 | 0.5090 | None
+Reed | 0.6953 | 3.6923 | 0.5962 | None
+Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
+Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+
+# (2-2) lr=0.001, 노트 늘리기
+학습률을 기존의 2분의 1 수준으로 학습
+
+모델 성능 지표
+악기 | Empty bar | Pitch used | Qualified | Tone distance
+--- | --- | --- | --- |--- 
+Drums | 0.0000 | 7.1406 | None | None
+Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
+Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
+Bass | 0.0234 | 4.4560 | 0.5812 | None
+Ensemble | 0.0000 | 5.8438 | 0.5090 | None
+Reed | 0.6953 | 3.6923 | 0.5962 | None
+Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
+Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+
 # (3) Rmsprop
+기존의 Adamm Optimizer에서 Rmsprop로 바꾸어 학습
+
+모델 성능 지표
+악기 | Empty bar | Pitch used | Qualified | Tone distance
+--- | --- | --- | --- |--- 
+Drums | 0.0000 | 7.1406 | None | None
+Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
+Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
+Bass | 0.0234 | 4.4560 | 0.5812 | None
+Ensemble | 0.0000 | 5.8438 | 0.5090 | None
+Reed | 0.6953 | 3.6923 | 0.5962 | None
+Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
+Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+
+# (3-1) Rmsprop, 노트 늘리기
+기존의 Adamm Optimizer에서 Rmsprop로 바꾸어 학습
+
+모델 성능 지표
+악기 | Empty bar | Pitch used | Qualified | Tone distance
+--- | --- | --- | --- |--- 
+Drums | 0.0000 | 7.1406 | None | None
+Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
+Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
+Bass | 0.0234 | 4.4560 | 0.5812 | None
+Ensemble | 0.0000 | 5.8438 | 0.5090 | None
+Reed | 0.6953 | 3.6923 | 0.5962 | None
+Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
+Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+
+# (3-2) Rmsprop, 노트 옮기기
+기존의 Adamm Optimizer에서 Rmsprop로 바꾸어 학습
+
+모델 성능 지표
+악기 | Empty bar | Pitch used | Qualified | Tone distance
+--- | --- | --- | --- |--- 
+Drums | 0.0000 | 7.1406 | None | None
+Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
+Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
+Bass | 0.0234 | 4.4560 | 0.5812 | None
+Ensemble | 0.0000 | 5.8438 | 0.5090 | None
+Reed | 0.6953 | 3.6923 | 0.5962 | None
+Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
+Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+
+# (3-3) Rmsprop, 노트 
 기존의 Adamm Optimizer에서 Rmsprop로 바꾸어 학습
 
 모델 성능 지표
