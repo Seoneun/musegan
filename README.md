@@ -203,11 +203,11 @@ Synth Pad | 0.4609 | 5.5652 | 0.6474 | None
 모델 성능 지표
 악기 | Empty bar | Pitch used | Qualified | Tone distance
 --- | --- | --- | --- |--- 
-Drums | 0.0000 | 7.1406 | None | None
-Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
-Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
-Bass | 0.0234 | 4.4560 | 0.5812 | None
-Ensemble | 0.0000 | 5.8438 | 0.5090 | None
-Reed | 0.6953 | 3.6923 | 0.5962 | None
-Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
-Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+Drums | 0.0469 | 68.5820 | None | None
+Piano | 0.3594 | 53.0854 | 0.8706 | 0.20802
+Guitar | 0.1719 | 57.3774 | 0.7735 | 0.20802
+Bass | 0.0938 | 73.9828 | 0.8082 | None
+Ensemble | 0.5078 | 54.5079 | 0.9101 | None
+Reed | 0.6016 | 36.8824 | 0.8581 | None
+Synth Lead | 0.7656 | 54.9333 | 0.4400 | None
+Synth Pad | 0.7812 | 44.9286 | 0.5756 | None
