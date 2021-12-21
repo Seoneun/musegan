@@ -3,7 +3,7 @@
 기존 모델 성능 지표
 악기 | Empty bar | Pitch used | Qualified | Tone distance
 --- | --- | --- | --- |--- 
-Drums | #1 | #2 | #3 | #4 
+Drums | 0.0000 | 7.1406 | 0.3076 | 1.12761
 Piano | #1 | #2 | #3 | #4 
 Guitar | #1 | #2 | #3 | #4 
 Bass | #1 | #2 | #3 | #4 
