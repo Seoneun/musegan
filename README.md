@@ -3,14 +3,14 @@
 기존 모델 성능 지표
 악기 | Empty bar | Pitch used | Qualified | Tone distance
 --- | --- | --- | --- |--- 
-Drums | 0.0000 | 7.1406 | 0.3076 | 1.12761
-Piano | #1 | #2 | #3 | #4 
-Guitar | #1 | #2 | #3 | #4 
-Bass | #1 | #2 | #3 | #4 
-Ensemble | #1 | #2 | #3 | #4 
-Reed | #1 | #2 | #3 | #4 
-Synth Lead | #1 | #2 | #3 | #4 
-Synth Pad | #1 | #2 | #3 | #4 
+Drums | 0.0000 | 7.1406 | 0.3076 | None
+Piano | 0.0156 | 8.5635 | 0.5699 | 1.12761
+Guitar | #1 | #2 | #3 | 1.12761
+Bass | #1 | #2 | #3 | None
+Ensemble | #1 | #2 | #3 | None
+Reed | #1 | #2 | #3 | None
+Synth Lead | #1 | #2 | #3 | None
+Synth Pad | #1 | #2 | #3 | None
 
 # Data Augmentation
 
