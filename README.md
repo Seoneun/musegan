@@ -82,14 +82,14 @@ Synth Pad | 0.7344 | 5.6471 | 0.4872 | None
 모델 성능 지표
 악기 | Empty bar | Pitch used | Qualified | Tone distance
 --- | --- | --- | --- |--- 
-Drums | 0.0000 | 7.1406 | None | None
-Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
-Guitar | 0.4141 | 7.6133 | 0.5699 | 1.12761
-Bass | 0.0234 | 4.4560 | 0.5812 | None
-Ensemble | 0.0000 | 5.8438 | 0.5090 | None
-Reed | 0.6953 | 3.6923 | 0.5962 | None
-Synth Lead | 0.7734 | 5.0000 | 0.5748 | None
-Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
+Drums | 0.0312 | 2.6290 | None | None
+Piano | 0.4375 | 4.6389 | 0.4450 | 1.26469
+Guitar | 0.0938 | 6.5000 | 0.4448 | 1.26469
+Bass | 0.0625 | 2.0000 | 0.3765 | None
+Ensemble | 0.3906 | 4.9231 | 0.5354 | None
+Reed | 0.6406 | 2.3478 | 0.5652 | None
+Synth Lead | 0.7188 | 3.8333 | 0.2534 | None
+Synth Pad | 0.7812 | 4.3571 | 0.4245 | None
 
 
 # (1-2) lr=0.0001, 노트 늘리기
