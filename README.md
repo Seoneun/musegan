@@ -1,7 +1,7 @@
 # MuseGAN
 
 기존 모델 성능 지표
-악기 | #empty bar | #pitch used | #qualified | #tone distance
+악기 | Empty bar | Pitch used | Qualified | Tone distance
 --- | --- | --- | --- |--- 
 Drums | #1 | #2 | #3 | #4 
 Piano | #1 | #2 | #3 | #4 
