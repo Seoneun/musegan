@@ -243,4 +243,4 @@ Synth Pad | 0.7812 | 44.9286 | 0.5756 | None
 MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment
 Hao-Wen Dong,* Wen-Yi Hsiao,* Li-Chia Yang and Yi-Hsuan Yang, (*equal contribution)
 in Proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI), 2018.
-<a>https://arxiv.org/abs/1709.06298</a>
+<a href=https://arxiv.org/abs/1709.06298>[arxiv]</a>
