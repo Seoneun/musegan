@@ -4,7 +4,7 @@
 # MuseGAN
  - 다성악을 만드는 GAN 모델, 다성악을 만드는 여타 다른 작곡 AI와는 다르게 시계열 데이터를 사용하여 작곡하는 것이 아닌 악기 간의 조화를 중시하며 곡을 작곡하는 AI 모델입니다.
  - 이번 모델에서 사용한 악기
-  -- Drums, Piano, Guitar, Bass, Ensemble, Reed, Synth Lead, Synth Pad
+ - Drums, Piano, Guitar, Bass, Ensemble, Reed, Synth Lead, Synth Pad
  - 논문에서 제시한 모델: Jamming Model, Composer Model, Hybrid Model
  - Jamming Model: 즉흥으로 곡을 생성하는 방식에서 고안된 모델입니다. 각 악기마다 각자의 잠재벡터를 가지고 곡을 생성하는 모델입니다.
  - Composer Model: 작곡가가 곡을 생성하는 방식에서 고안된 모델입니다. 각 악기마다 작곡가가 전담별로 따로 있어 곡을 생성하는 것이 아닌 한 작곡가가 모든 악기의 음을 작곡합니다. 이를 바탕으로 모든 악기의 공통된 잠재벡터를 가지고 곡을 생성하는 모델입니다.
@@ -19,9 +19,10 @@
  - Tone distance: 음계 간 거리입니다. Piano와 Guitar의 음계 간 거리를 기준으로 잡았습니다. 작을 수록 음계 거리가 가까움을 의미하고 조화를 이룹니다. 작을 수록 성능이 향상됩니다.
 
 # GOAL
+ - 이번 프로젝트의 목표는 MuseGAN 모델의 성능 지표 중 Empty bar, Tone distance는 낮추고 Qualified Note를 높이는 것입니다. 이를 위하여 Data Augmentation, 학습률 조정, Optimizer 변경을 시도했습니다.
 
-
-# DATA
+# DATASET
+ - lastfm_alternative_8b_phrase.npy: 2074개 곡에서 추출한 13,746개의 4마디 악절로 이루어진 데이터 셋입니다. Drums, Piano, Guitar, Bass, Ensemble, Reed, Synth Lead, Synth Pad 총 8개의 트랙을 가지며 락 스타일의 곡들입니다.
 
 기존 모델 성능 지표
 악기 | Empty bar | Pitch used | Qualified note | Tone distance
