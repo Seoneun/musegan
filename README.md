@@ -2,8 +2,8 @@
 # 주제: MuseGAN 모델 성능 향상
 
 # MuseGAN
-다성악을 만드는 GAN 모델, 다성악을 만드는 여타 다른 작곡 AI와는 다르게 시계열 데이터를 사용하여 작곡하는 것이 아닌 악기 간의 조화를 중시하며 곡을 작곡하는 AI 모델입니다.
-이번 모델에서 사용한 악기: Drums, Piano, Guitar, Bass, Ensemble, Reed, Synth Lead, Synth Pad
+ - 다성악을 만드는 GAN 모델, 다성악을 만드는 여타 다른 작곡 AI와는 다르게 시계열 데이터를 사용하여 작곡하는 것이 아닌 악기 간의 조화를 중시하며 곡을 작곡하는 AI 모델입니다.
+ - 이번 모델에서 사용한 악기: Drums, Piano, Guitar, Bass, Ensemble, Reed, Synth Lead, Synth Pad
 
 # 성능지표
 논문에서 제시한 성능 지표 중 이번 캡스톤 주제에서 주된 성능 향상 지표로 선택한 성능 지표입니다.
