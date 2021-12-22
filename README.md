@@ -239,7 +239,10 @@ Synth Pad | 0.7812 | 44.9286 | 0.5756 | None
 # 최종 성능 비교
 시도한 모델에서 가장 성능이 좋았던 모델은 Optimizer를 Rmsprop를 사용하고 노트 분리 데이터 증강기법을 사용한 모델입니다. Empty bar의 경우 성능 향상이 이루어졌다 말하기는 힘들겠으나 Qualified note의 경우 Synth Lead, Synth Pad를 제외한 모든 악기들의 성능이 크게 향상되었고 Tone distance의 경우 마찬가지로 성능이 향상되었습니다.
 
-# Papers
+# 분석
+이번 프로젝트에서 알게된 사실은 Pitch used, Qualfied, Tone distance간의 관계입니다. 대체적으로 시도해본 결과 Pitch used, 즉 마디 별 사용된 음의 수가 많아질 수록 Qualified note, Tone distance의 성능이 향상되는 경향을 보였습니다. 이를 토대로 사용된 음이 많아질 수록 곡이 단조로워지지 않고 음계 간의 조화가 발생한다는 사실을 유추할 수 있습니다. 이를 바탕으로 앞으로 GAN모델을 활용하여 다성악을 작곡할 때 마디 별 사용된 음이 많은 데이터 셋을 사용하거나 데이터 증강을 통해 모델 성능향상을 할 수 있을 것이라 생각합니다. Empty bar 성능에 대해서는 노트 반복 데이터 증강 시도에서 데이터 셋의 빈 마디의 비율을 줄이면 준다는 사실을 유추할 수 있습니다. 다만 데이터 증강 기법을 동시에 사용할 경우 오히려 성능 저하가 발생해 이를 보완하기 위한 추가적인 연구가 필요합니다.
+
+# 참고 
 MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment
 Hao-Wen Dong,* Wen-Yi Hsiao,* Li-Chia Yang and Yi-Hsuan Yang, (*equal contribution)
 in Proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI), 2018.
