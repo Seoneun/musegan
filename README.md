@@ -3,12 +3,17 @@
 
 # MuseGAN
 다성악을 만드는 GAN 모델, 다성악을 만드는 여타 다른 작곡 AI와는 다르게 시계열 데이터를 사용하여 작곡하는 것이 아닌 악기 간의 조화를 중시하며 곡을 작곡하는 AI 모델입니다.
+이번 모델에서 사용한 악기: Drums, Piano, Guitar, Bass, Ensemble, Reed, Synth Lead, Synth Pad
 
 # 성능지표
 논문에서 제시한 성능 지표 중 이번 캡스톤 주제에서 주된 성능 향상 지표로 선택한 성능 지표입니다.
- - Empty bar
- - Pitch used
- - Quali
+ - Empty bar: 오선보 악보에서 빈 마디의 비율을 의미합니다. 0~1까지의 값을 가지며 작을 수록 성능이 향상됩니다.
+ - Pitch used: 마디 별로 사용된 음의 수를 의미합니다.
+ - Qualified Note: Qualified Note의 비율을 의미합니다. Qualified Note란 time stamp가 3보다 작지 않은 노트를 의미합니다. 높을 수록 곡이 단조롭지 않고 성능이 향상됩니다.
+ - Tone distance: 음계 간 거리입니다. Piano와 Guitar의 음계 간 거리를 기준으로 잡았습니다. 작을 수록 음계 거리가 가까움을 의미하고 조화를 이룹니다. 작을 수록 성능이 향상됩니다.
+
+# GOAL
+
 
 # DATA
 
