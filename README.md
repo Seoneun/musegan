@@ -1,7 +1,19 @@
+# 2021-2 데이터캡스톤디자인
+# 주제: MuseGAN 모델 성능 향상
+
 # MuseGAN
+다성악을 만드는 GAN 모델, 다성악을 만드는 여타 다른 작곡 AI와는 다르게 시계열 데이터를 사용하여 작곡하는 것이 아닌 악기 간의 조화를 중시하며 곡을 작곡하는 AI 모델입니다.
+
+# 성능지표
+논문에서 제시한 성능 지표 중 이번 캡스톤 주제에서 주된 성능 향상 지표로 선택한 성능 지표입니다.
+ - Empty bar
+ - Pitch used
+ - Quali
+
+# DATA
 
 기존 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0000 | 7.1406 | None | None
 Piano | 0.0156 | 8.5635 | 0.3076 | 1.12761
@@ -18,7 +30,7 @@ Synth Pad | 0.9141 | 6.3636 | 0.6739 | None
 랜덤하게 악기에서 나오는 마디를 다른 악기에도 연주를 하게끔 데이터를 증강함
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0312 | 11.0242 | None | None
 Piano | 0.0156 | 9.9603 | 0.4843 | 0.57163
@@ -33,7 +45,7 @@ Synth Pad | 0.0156 | 11.8571 | 0.4731 | None
 노트의 길이를 랜덤하게 늘려 데이터를 증강함
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.1484 | 6.8991 | None | None
 Piano | 0.6562 | 15.1136 | 0.5922 | 0.81706
@@ -48,7 +60,7 @@ Synth Pad | 0.0000 | 1.8906 | 0.5135 | None
 노트의 길이를 기준으로 노트의 개수를 늘려 데이터를 증강함
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0625 | 71.0000 | None | None
 Piano | 0.4141 | 52.7333 | 0.8744 | 0.35740
@@ -65,7 +77,7 @@ Synth Pad | 0.7266 | 50.1429 | 0.4775 | None
 학습률을 기존의 20분의 1 수준으로 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0156 | 3.2222 | None | None
 Piano | 0.5312 | 7.7333 | 0.4642 | 0.96167
@@ -80,7 +92,7 @@ Synth Pad | 0.7344 | 5.6471 | 0.4872 | None
 학습률을 기존의 20분의 1 수준으로 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0312 | 2.6290 | None | None
 Piano | 0.4375 | 4.6389 | 0.4450 | 1.26469
@@ -96,7 +108,7 @@ Synth Pad | 0.7812 | 4.3571 | 0.4245 | None
 학습률을 기존의 20분의 1 수준으로 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0000 | 6.7031 | None | None
 Piano | 0.3125 | 14.4091 | 0.5014 | 1.17671
@@ -111,7 +123,7 @@ Synth Pad | 0.6406 | 3.3043 | 0.4685 | None
 학습률을 기존의 2분의 1 수준으로 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0625 | 4.8833 | None | None
 Piano | 0.7188 | 13.1667 | 0.5847 | 1.03577
@@ -126,7 +138,7 @@ Synth Pad | 0.7500 | 7.1250 | 0.5637 | None
 학습률을 기존의 2분의 1 수준으로 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0000 | 7.9688 | None | None
 Piano | 0.6719 | 10.3810 | 0.6317 | 1.14072
@@ -141,7 +153,7 @@ Synth Pad | 0.7500 | 6.0625 | 0.7254 | None
 학습률을 기존의 2분의 1 수준으로 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0625 | 7.7833 | None | None
 Piano | 0.5938 | 11.5769 | 0.6634 | 0.74388
@@ -156,7 +168,7 @@ Synth Pad | 0.8594 | 13.3333 | 0.6763 | None
 기존의 Adamm Optimizer에서 Rmsprop로 바꾸어 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0000 | 5.9688 | None | None
 Piano | 0.1953 | 6.6408 | 0.5477 | 1.36086
@@ -171,7 +183,7 @@ Synth Pad | 0.8516 | 8.1579 | 0.5130 | None
 기존의 Adamm Optimizer에서 Rmsprop로 바꾸어 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0312 | 8.4355 | None | None
 Piano | 0.2969 | 6.6000 | 0.6259 | 1.26037
@@ -186,7 +198,7 @@ Synth Pad | 0.8203 | 10.6957 | 0.6508 | None
 기존의 Adamm Optimizer에서 Rmsprop로 바꾸어 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0000 | 11.8906 | None | None
 Piano | 0.2734 | 12.2796 | 0.6898 | 0.82052
@@ -201,7 +213,7 @@ Synth Pad | 0.4609 | 5.5652 | 0.6474 | None
 기존의 Adamm Optimizer에서 Rmsprop로 바꾸어 학습
 
 모델 성능 지표
-악기 | Empty bar | Pitch used | Qualified | Tone distance
+악기 | Empty bar | Pitch used | Qualified note | Tone distance
 --- | --- | --- | --- |--- 
 Drums | 0.0469 | 68.5820 | None | None
 Piano | 0.3594 | 53.0854 | 0.8706 | 0.20802
