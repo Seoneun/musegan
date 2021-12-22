@@ -238,3 +238,9 @@ Synth Pad | 0.7812 | 44.9286 | 0.5756 | None
 
 # 최종 성능 비교
 시도한 모델에서 가장 성능이 좋았던 모델은 Optimizer를 Rmsprop를 사용하고 노트 분리 데이터 증강기법을 사용한 모델입니다. Empty bar의 경우 성능 향상이 이루어졌다 말하기는 힘들겠으나 Qualified note의 경우 Synth Lead, Synth Pad를 제외한 모든 악기들의 성능이 크게 향상되었고 Tone distance의 경우 마찬가지로 성능이 향상되었습니다.
+
+# Papers
+MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment
+Hao-Wen Dong,* Wen-Yi Hsiao,* Li-Chia Yang and Yi-Hsuan Yang, (*equal contribution)
+in Proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI), 2018.
+<a>https://arxiv.org/abs/1709.06298</a>
