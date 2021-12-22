@@ -4,7 +4,7 @@
 # MuseGAN
  - 다성악을 만드는 GAN 모델, 다성악을 만드는 여타 다른 작곡 AI와는 다르게 시계열 데이터를 사용하여 작곡하는 것이 아닌 악기 간의 조화를 중시하며 곡을 작곡하는 AI 모델입니다.
  - 이번 모델에서 사용한 악기
-  - Drums, Piano, Guitar, Bass, Ensemble, Reed, Synth Lead, Synth Pad
+  -- Drums, Piano, Guitar, Bass, Ensemble, Reed, Synth Lead, Synth Pad
  - 논문에서 제시한 모델: Jamming Model, Composer Model, Hybrid Model
  - Jamming Model: 즉흥으로 곡을 생성하는 방식에서 고안된 모델입니다. 각 악기마다 각자의 잠재벡터를 가지고 곡을 생성하는 모델입니다.
  - Composer Model: 작곡가가 곡을 생성하는 방식에서 고안된 모델입니다. 각 악기마다 작곡가가 전담별로 따로 있어 곡을 생성하는 것이 아닌 한 작곡가가 모든 악기의 음을 작곡합니다. 이를 바탕으로 모든 악기의 공통된 잠재벡터를 가지고 곡을 생성하는 모델입니다.
